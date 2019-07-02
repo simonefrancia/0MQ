@@ -5,7 +5,7 @@
 
 export PORT=5556
 
-export MXM_PREFIX=simonefmxm
+export MXM_PREFIX=simonefrancia
 export MXM_CONTAINER_NAME=0mq
 export MXM_BASE_CONTAINER=$MXM_PREFIX/$MXM_CONTAINER_NAME
 export MXM_BASE_NAME=$MXM_PREFIX-0mq
