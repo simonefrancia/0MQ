@@ -13,7 +13,7 @@ PORT = os.getenv('PORT', 3005)
 context = zmq.Context()
 print ("Connecting to server...")
 socket = context.socket(zmq.REQ)
-socket.connect ("tcp://localhost:%s" % PORT)
+socket.connect ("tcp://127.0.0.1:%s" % str(PORT) )
 
 #  Do 10 requests, waiting each time for a response
 for request in range (1,10):

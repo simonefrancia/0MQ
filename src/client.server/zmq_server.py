@@ -18,7 +18,7 @@ PORT = os.getenv('PORT', 3005)
 
 context = zmq.Context()
 socket = context.socket(zmq.REP)
-socket.bind("tcp://*:%s" % PORT)
+socket.bind("tcp://127.0.0.1:%s" % str(PORT) )
 
 while True:
     #  Wait for next request from client
