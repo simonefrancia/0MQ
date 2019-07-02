@@ -4,6 +4,11 @@ Hello world with ZMQ binding in Python3
 
 ## CLIENT/SERVER MODE
 
+
+<p align="center">
+    <img src=data/reqrep.png?raw=true" width="500">
+</p>
+
 ``` cd client.server ```
 
 ### Launch Server
@@ -36,6 +41,11 @@ CLIENT: Received reply  5 [ b'SERVER: World from 5556' ]
 ```
 
 ## PUSH/PULL MODE - PRODUCER/CONSUMERS/COLLECTOR
+
+<p align="center">
+    <img src=data/pushpull.png?raw=true" width="500">
+</p>
+
 
 ``` cd producer.consumers.collector```
 
