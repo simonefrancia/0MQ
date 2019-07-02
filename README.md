@@ -1,6 +1,6 @@
-# 0MQ Hello World
+# ZMQ Hello World
 
-Hello world with 0MQ binding in Python3
+Hello world with ZMQ binding in Python3
 
 ### Launch Server
 ```python3 zmq_server.py & ```
