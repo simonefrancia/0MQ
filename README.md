@@ -2,6 +2,10 @@
 
 Hello world with ZMQ binding in Python3
 
+## CLIENT/SERVER MODE
+
+``` cd client.server ```
+
 ### Launch Server
 ```python3 zmq_server.py & ```
 
@@ -30,3 +34,25 @@ CLIENT: Received reply  5 [ b'SERVER: World from 5556' ]
 .....
 .....
 ```
+
+## PUSH/PULL MODE - PRODUCER/CONSUMERS/COLLECTOR
+
+``` cd producer.consumers.collector```
+
+
+### Launch Consumers
+```python3 zmq_consumer.py ```
+
+
+### Launch Collector
+```python3 zmq_collector.py  ```
+
+
+### Launch Producers (THIS MUST BE THE LAST TO LAUNCH)
+```python3 zmq_producer.py ```
+
+
+
+
+
+
